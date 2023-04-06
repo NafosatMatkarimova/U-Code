@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1446px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url(../../fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url(../../fonts/OpenSans-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url(../../fonts/OpenSans-Bold.ttf);
+  font-weight: 700;
+}
+.header {
+  padding-top: 71px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E4F5EB;
+}
+.header-logo {
+  color: #242323;
+  font-family: "OpenSans-Bold";
+  font-weight: 700;
+  font-size: 23.7952px;
+  line-height: 15px;
+}
+.header-logo span {
+  color: #45B871;
+}
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 62px;
+}
+.header-list_item-link {
+  color: #636262;
+  font-family: "OpenSans-Bold";
+  font-weight: 700;
+  font-size: 19.8294px;
+  line-height: 15px;
+  transition: 0.5s;
+}
+.header-list_item-link:hover {
+  color: #45B871;
+  cursor: pointer;
+}
+.header-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 39px;
+}
+.header-btn_text {
+  color: #fff;
+  font-family: "OpenSans-SemiBold";
+  font-weight: 600;
+  font-size: 19.8294px;
+  line-height: 15px;
+  background-color: #45B871;
+  border-radius: 5px;
+  padding: 20px;
+  border: #45B871;
+  position: 0.5s;
+}
+.header-btn_text:hover {
+  background-color: #fff;
+  color: #45B871;
+  border-radius: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

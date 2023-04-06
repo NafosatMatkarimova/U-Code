@@ -1,0 +1,11 @@
+@mixin text {
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+}
+
+@mixin flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

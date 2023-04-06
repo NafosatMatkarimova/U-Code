@@ -1,0 +1,59 @@
+.header{
+    padding-top: 71px;
+    @include flexBetween;
+    background-color: $lightGreen;
+    &-logo{
+        color: $darkGrey;
+        font-family: $bold;
+        font-weight: 700;
+font-size: 23.7952px;
+line-height: 15px;
+   span{
+    color: $darkGreen;
+   }
+    }
+    &-list{
+       @include flexBetween; 
+       gap: 62px;
+      &_item{
+        &-link{
+            color: $grey;
+            font-family: $bold;
+            font-weight: 700;
+    font-size: 19.8294px;
+    line-height: 15px;
+    transition: 0.5s;
+           }
+        &-link:hover{
+         color: $darkGreen;
+         cursor: pointer;
+        }
+      }
+    }
+    &-btn{
+        @include flexBetween;
+        gap: 39px;
+      &_text{
+        color: #fff;
+        font-family: $semiBold;
+        font-weight: 600;
+font-size: 19.8294px;
+line-height: 15px;
+background-color: $darkGreen;
+border-radius: 5px;
+padding: 20px;
+border:  $darkGreen;
+position: 0.5s;
+      }
+      &_text:hover{
+        background-color: #fff;
+        color: $darkGreen;
+        border-radius: 5px;
+        // border: 2px $darkCreen;
+        cursor: pointer;
+      }
+    }
+    div{
+
+    }
+}
