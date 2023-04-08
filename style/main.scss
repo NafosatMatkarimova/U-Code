@@ -1,6 +1,9 @@
 @import "./variables/normalize";
-@import "./variables/vareable";
+@import "./variables/variable";
 @import "./variables/mixins";
 @import "./variables/fonts";
+@import "./variables/media-mixin";
 
 @import "./components/header";
+@import "./components/header-banner";
+

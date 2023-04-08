@@ -27,12 +27,15 @@
   src: url(../../fonts/OpenSans-Bold.ttf);
   font-weight: 700;
 }
+.header-page {
+  background-color: #E4F5EB;
+}
+
 .header {
   padding-top: 71px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #E4F5EB;
 }
 .header-logo {
   color: #242323;
@@ -84,5 +87,81 @@
   background-color: #fff;
   color: #45B871;
   border-radius: 5px;
+  border: 2px solid #45B871;
   cursor: pointer;
+}
+
+.menu-burger {
+  width: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  display: none;
+}
+.menu-burger div {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+.header-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 174px 150px;
+}
+.header-banner_wrapper {
+  max-width: 626px;
+  width: 100%;
+  position: relative;
+}
+.header-banner_wrapper-title {
+  width: 100%;
+  color: #242323;
+  font-family: "OpenSans-Bold";
+  font-weight: 700;
+  font-size: 63.4539px;
+  line-height: 83px;
+}
+.header-banner_wrapper-text {
+  width: 100%;
+  color: #6C6C6A;
+  font-family: "OpenSans-SemiBold";
+  margin-block: 32px 50px;
+}
+.header-banner_wrapper-btn {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+.header-banner_wrapper-btn .play {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: transparent;
+  color: #242323;
+  font-family: "OpenSans-SemiBold";
+  font-weight: 600;
+  font-size: 19.8294px;
+  line-height: 15px;
+  gap: 15px;
+}
+.header-banner_wrapper-btn .play div {
+  width: 66px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.header-banner_foto {
+  max-width: 900px;
+  width: 100%;
+  position: absolute;
+  right: 165px;
+}
+
+.all {
+  padding: 20px 100px;
 }/*# sourceMappingURL=main.css.map */
