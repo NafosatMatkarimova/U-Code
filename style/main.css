@@ -163,5 +163,74 @@
 }
 
 .all {
-  padding: 20px 100px;
+  padding: 20px 48px;
+}
+
+.modal {
+  display: none;
+  width: 500px;
+  height: 500px;
+  padding: 30px;
+  background-color: #fff;
+  border: solid 3px #45B871;
+  border-radius: 5px;
+}
+.modal-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-logo_close {
+  border: none;
+  background: transparent;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.modal-form_email {
+  display: flex;
+  flex-direction: column;
+}
+.modal-form_email-label {
+  color: #242323;
+  font-family: "OpenSans-Regular";
+  font-size: 25px;
+}
+.modal-form_email-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #E4F5EB;
+  color: #6C6C6A;
+  font-family: "OpenSans-Regular";
+  font-size: 20px;
+}
+.modal-form_password {
+  display: flex;
+  flex-direction: column;
+}
+.modal-form_password-lable {
+  color: #242323;
+  font-family: "OpenSans-Regular";
+  font-size: 25px;
+}
+.modal-form_password-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #E4F5EB;
+  color: #6C6C6A;
+  font-family: "OpenSans-Regular";
+  font-size: 20px;
+}
+.modal-btn button {
+  padding: 15px 200px;
+  background-color: #E4F5EB;
+  border-radius: 5px;
+  color: #242323;
+  font-family: "OpenSans-Regular";
+  font-size: 25px;
+  border: none;
 }/*# sourceMappingURL=main.css.map */

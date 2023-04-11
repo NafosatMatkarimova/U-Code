@@ -1,0 +1,78 @@
+.modal{
+    display: none;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    background-color: #fff;
+    border: solid 3px $darkGreen;
+    border-radius: 5px;
+    &-logo{
+      @include flexBetween;
+      &_close{
+
+       border: none;
+       background: transparent;
+      }
+    }
+    &-form{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        
+        &_email{
+          display: flex;
+          flex-direction: column;
+          // gap: 25px;
+          &-label{
+              color: $darkGrey;
+              font-family: $regular;
+              font-size: 25px;
+            }
+            &-input{
+                padding: 10px;
+                border-radius: 5px;
+                border: none;
+                background-color: $lightGreen;
+                color: $lightGrey;
+                font-family: $regular;
+                font-size: 20px;
+            }
+            
+        }
+        
+        &_password{
+            display: flex;
+            flex-direction: column;
+            // gap: 15px;
+            &-lable{
+                color: $darkGrey;
+                font-family: $regular;
+                font-size: 25px; 
+            }
+            &-input{
+                padding: 10px;
+                border-radius: 5px;
+                border: none;
+                background-color: $lightGreen;
+                color: $lightGrey;
+                font-family: $regular;
+                font-size: 20px;
+            }
+        }
+    }
+    &-btn{
+        button{
+            padding: 15px 200px;
+            background-color: $lightGreen;
+            border-radius: 5px;
+            color: $darkGrey;
+            font-family: $regular;
+            font-size: 25px;
+            border: none;
+      
+
+      }
+    }
+}
+
+   
