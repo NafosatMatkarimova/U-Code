@@ -6,14 +6,17 @@
     background-color: #fff;
     border: solid 3px $darkGreen;
     border-radius: 5px;
+
     &-logo{
       @include flexBetween;
+
       &_close{
 
        border: none;
        background: transparent;
       }
     }
+
     &-form{
         display: flex;
         flex-direction: column;
@@ -23,6 +26,7 @@
           display: flex;
           flex-direction: column;
           // gap: 25px;
+
           &-label{
               color: $darkGrey;
               font-family: $regular;
@@ -36,6 +40,10 @@
                 color: $lightGrey;
                 font-family: $regular;
                 font-size: 20px;
+                
+                &:focus {
+                    outline: none;
+                }
             }
             
         }
@@ -44,11 +52,13 @@
             display: flex;
             flex-direction: column;
             // gap: 15px;
+
             &-lable{
                 color: $darkGrey;
                 font-family: $regular;
                 font-size: 25px; 
             }
+
             &-input{
                 padding: 10px;
                 border-radius: 5px;
@@ -57,12 +67,18 @@
                 color: $lightGrey;
                 font-family: $regular;
                 font-size: 20px;
+                &:focus {
+                    outline: none;
+                }
             }
+
         }
     }
     &-btn{
+
         button{
-            padding: 15px 200px;
+            width: 100%;
+            padding: 10px 100px;
             background-color: $lightGreen;
             border-radius: 5px;
             color: $darkGrey;

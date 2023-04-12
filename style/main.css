@@ -80,14 +80,12 @@
   background-color: #45B871;
   border-radius: 5px;
   padding: 20px;
-  border: #45B871;
   position: 0.5s;
 }
 .header-btn_text:hover {
   background-color: #fff;
   color: #45B871;
   border-radius: 5px;
-  border: 2px solid #45B871;
   cursor: pointer;
 }
 
@@ -108,7 +106,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 174px 150px;
+  padding-block: 150px 140px;
 }
 .header-banner_wrapper {
   max-width: 626px;
@@ -158,12 +156,12 @@
 .header-banner_foto {
   max-width: 900px;
   width: 100%;
-  position: absolute;
-  right: 165px;
+  transform: translateX(200px);
 }
 
 .all {
-  padding: 20px 48px;
+  width: 100%;
+  padding: 21px 48px;
 }
 
 .modal {
@@ -207,6 +205,9 @@
   font-family: "OpenSans-Regular";
   font-size: 20px;
 }
+.modal-form_email-input:focus {
+  outline: none;
+}
 .modal-form_password {
   display: flex;
   flex-direction: column;
@@ -225,8 +226,12 @@
   font-family: "OpenSans-Regular";
   font-size: 20px;
 }
+.modal-form_password-input:focus {
+  outline: none;
+}
 .modal-btn button {
-  padding: 15px 200px;
+  width: 100%;
+  padding: 10px 100px;
   background-color: #E4F5EB;
   border-radius: 5px;
   color: #242323;

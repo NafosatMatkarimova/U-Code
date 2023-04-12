@@ -1,12 +1,14 @@
 .header-banner {
   // width: 100%;
-    @include flexBetween;
-    padding-block: 174px 150px;
-    &_wrapper {
+  @include flexBetween;
+  padding-block: 150px 140px;
+
+  &_wrapper {
     max-width: 626px;
     width: 100%;
     position: relative;
-      &-title {
+
+    &-title {
       width: 100%;
       color: $darkGrey;
       font-family: $bold;
@@ -14,27 +16,31 @@
       font-size: 63.4539px;
       line-height: 83px;
     }
+
     &-text {
       width: 100%;
       color: $lightGrey;
       font-family: $semiBold;
       margin-block: 32px 50px;
     }
+
     &-btn {
       display: flex;
       align-items: center;
       gap: 29px;
+
       .play {
-          display: flex;
-          align-items: center;
-          border: none;
-          background: transparent;
-          color: $darkGrey;
-          font-family: $semiBold;
-          font-weight: 600;
-          font-size: 19.8294px;
-          line-height: 15px;
-          gap: 15px;
+        display: flex;
+        align-items: center;
+        border: none;
+        background: transparent;
+        color: $darkGrey;
+        font-family: $semiBold;
+        font-weight: 600;
+        font-size: 19.8294px;
+        line-height: 15px;
+        gap: 15px;
+
         & div {
           width: 66px;
           height: 66px;
@@ -47,14 +53,16 @@
       }
     }
   }
-  &_foto{
+  &_foto {
     max-width: 900px;
     width: 100%;
-   position: absolute;
-   right: 165px;
+    // position: absolute;
+    // right: -80px;
+    // top: 130px;
+    transform: translateX(200px);
   }
-
 }
-.all{
-  padding: 20px 48px;
+.all {
+  width: 100%;
+  padding: 21px 48px;
 }
