@@ -53,16 +53,75 @@
       }
     }
   }
-  &_foto {
-    max-width: 900px;
-    width: 100%;
-    // position: absolute;
-    // right: -80px;
-    // top: 130px;
-    transform: translateX(200px);
+  &_img {
+    position: relative;
+    z-index: 0;
+    &-content {
+      max-width: 600px;
+      width: 100%;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      border: 3px solid #95CDDC;
+      background-image: url(../imgs/line.svg);
+      background-color: #95CDDC ;
+    
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 110%;
+        height: 110%;
+        border: 5px solid #beebf8;
+        border-radius: 50%;
+        z-index: -1;
+      }
+      .girl{
+        // position: absolute;
+        // z-index: 1;
+      }
+      .teacher{
+        position: absolute;
+        top: -110px;
+        left: -45px;
+        z-index: 0;
+      }
+      .students{
+        position: absolute;
+        top: 50px;
+        right: -250px;
+        z-index: 1;
+      }
+      .exam{
+        position: absolute;
+        bottom: 50px;
+        left: -100px;
+        z-index: 1;
+      }
+    }
+    .line {
+      position: absolute;
+      top: 100px;
+
+    }
+    .backcolor {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      max-width: 586px;
+      width: 100%;
+      background-color: #95cddc;
+      border-radius: 50%;
+    }
+
   }
 }
 .all {
   width: 100%;
   padding: 21px 48px;
+  border: 1px solid $darkGreen;
 }
