@@ -4,7 +4,7 @@
   padding-block: 150px 140px;
 
   &_wrapper {
-    max-width: 626px;
+    max-width: 660px;
     width: 100%;
     position: relative;
 
@@ -13,7 +13,7 @@
       color: $darkGrey;
       font-family: $bold;
       font-weight: 700;
-      font-size: 63.4539px;
+      font-size: 60px;
       line-height: 83px;
     }
 
@@ -57,9 +57,9 @@
     position: relative;
     z-index: 0;
     &-content {
-      max-width: 600px;
+      max-width: 626px;
       width: 100%;
-      height: 600px;
+      height: 626px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -78,10 +78,10 @@
         border-radius: 50%;
         z-index: -1;
       }
-      .girl{
-        // position: absolute;
-        // z-index: 1;
-      }
+    .girl{
+      max-width: 600px;
+      width: 100%;
+    }
       .teacher{
         position: absolute;
         top: -110px;
@@ -121,7 +121,11 @@
   }
 }
 .all {
-  width: 100%;
-  padding: 21px 48px;
+  width: 220px;
+  padding: 21px 35px;
   border: 1px solid $darkGreen;
+  font-family: $semiBold;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
 }

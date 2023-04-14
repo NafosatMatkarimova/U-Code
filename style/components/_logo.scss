@@ -1,0 +1,15 @@
+.logo{
+    &-img{
+padding-block: 75px 85px;
+        @include flexBetween;
+        &_title{
+            max-width: 336px;
+            width: 100%;
+            color: $grey;
+            font-family: $bold;
+            font-weight: 700;
+font-size: 35.6928px;
+line-height: 50px;
+        }
+    }
+}
