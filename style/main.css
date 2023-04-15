@@ -320,4 +320,56 @@ button {
   font-weight: 700;
   font-size: 35.6928px;
   line-height: 50px;
+}
+
+.started-info {
+  display: flex;
+}
+.started-info_img {
+  max-width: 492px;
+  width: 100%;
+}
+.started-info .account {
+  width: 255px;
+  background-color: white;
+  border-radius: 5px;
+}
+.started-info .account-number1 {
+  font-family: "OpenSans-Bold";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 25px;
+  width: 74px;
+  background-color: #45B871;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+.started-info .account-title {
+  font-family: "OpenSans-SemiBold";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 15px;
+}
+.started-info .courses {
+  width: 255px;
+  background-color: white;
+  border-radius: 5px;
+}
+.started-info .courses-number2 {
+  font-family: "OpenSans-Bold";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 25px;
+  width: 74px;
+  background-color: #45B871;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+.started-info .courses-title {
+  font-family: "OpenSans-SemiBold";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 15px;
 }/*# sourceMappingURL=main.css.map */
