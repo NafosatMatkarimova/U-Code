@@ -1,19 +1,24 @@
 .started {
-
+    width: 500px;
+    width: 100%;
     &-info {
         display: flex;
+   gap: 30px;
         &_img {
             max-width: 492px;
             width: 100%;
         }
 
         .account {
+            @include flexBetween;
+            flex-direction: column;
             width: 255px;
-            // height: 255px;
+            padding: 50px 23px;
             background-color: #ffff;
-            border-radius: 5px;
+            border-radius: 10px;
 
             &-number1 {
+                padding: 24px 29px;
                 font-family: $bold;
                 font-weight: 700;
                 font-size: 30px;
@@ -30,15 +35,21 @@
                 font-weight: 600;
                 font-size: 28px;
                 line-height: 15px;
+                margin-top: 30px;
             }
         }
 
         .courses {
+            @include flexBetween;
+            flex-direction: column;
             width: 255px;
+            padding: 50px 23px;
             background-color: #ffff;
-            border-radius: 5px;
+            border-radius: 10px;
 
             &-number2 {
+                padding: 24px 29px;
+
                 font-family: $bold;
                 font-weight: 700;
                 font-size: 30px;
@@ -49,11 +60,77 @@
                 border-radius: 50%;
                 text-align: center;
             }
-            &-title{
+
+            &-title {
                 font-family: $semiBold;
                 font-weight: 600;
                 font-size: 28px;
-                line-height: 15px; 
+                line-height: 15px;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    &-infotwo {
+        display: flex;
+    gap: 30px;
+        .book {
+            @include flexBetween;
+            flex-direction: column;
+            width: 255px;
+            padding: 50px 23px;
+            border-radius: 10px;
+
+            &-number3 {
+                padding: 24px 29px;
+                width: 74px;
+                color: #ffff;
+                background-color: $darkGreen;
+                border-radius: 50%;
+                text-align: center;
+                font-family: $bold;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 25px;
+            }
+
+            &-title {
+                color: $darkGrey;
+                font-family: $semiBold;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 15px;
+                margin-top: 30px;
+            }
+        }
+
+        .get {
+            @include flexBetween;
+            flex-direction: column;
+            width: 255px;
+            padding: 50px 23px;
+            border-radius: 10px;
+
+            &-number4 {
+                padding: 24px 29px;
+                width: 74px;
+                color: #ffff;
+                background-color: $darkGreen;
+                border-radius: 50%;
+                text-align: center;
+                font-family: $bold;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 25px;
+            }
+
+            &-title {
+                color: $darkGrey;
+                font-family: $semiBold;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 15px;
+                margin-top: 30px;
             }
         }
     }

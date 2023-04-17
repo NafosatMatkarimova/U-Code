@@ -322,19 +322,30 @@ button {
   line-height: 50px;
 }
 
+.started {
+  width: 500px;
+  width: 100%;
+}
 .started-info {
   display: flex;
+  gap: 30px;
 }
 .started-info_img {
   max-width: 492px;
   width: 100%;
 }
 .started-info .account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   width: 255px;
+  padding: 50px 23px;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .started-info .account-number1 {
+  padding: 24px 29px;
   font-family: "OpenSans-Bold";
   font-weight: 700;
   font-size: 30px;
@@ -350,13 +361,20 @@ button {
   font-weight: 600;
   font-size: 28px;
   line-height: 15px;
+  margin-top: 30px;
 }
 .started-info .courses {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   width: 255px;
+  padding: 50px 23px;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .started-info .courses-number2 {
+  padding: 24px 29px;
   font-family: "OpenSans-Bold";
   font-weight: 700;
   font-size: 30px;
@@ -372,4 +390,67 @@ button {
   font-weight: 600;
   font-size: 28px;
   line-height: 15px;
+  margin-top: 30px;
+}
+.started-infotwo {
+  display: flex;
+  gap: 30px;
+}
+.started-infotwo .book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 255px;
+  padding: 50px 23px;
+  border-radius: 10px;
+}
+.started-infotwo .book-number3 {
+  padding: 24px 29px;
+  width: 74px;
+  color: white;
+  background-color: #45B871;
+  border-radius: 50%;
+  text-align: center;
+  font-family: "OpenSans-Bold";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 25px;
+}
+.started-infotwo .book-title {
+  color: #242323;
+  font-family: "OpenSans-SemiBold";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 15px;
+  margin-top: 30px;
+}
+.started-infotwo .get {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 255px;
+  padding: 50px 23px;
+  border-radius: 10px;
+}
+.started-infotwo .get-number4 {
+  padding: 24px 29px;
+  width: 74px;
+  color: white;
+  background-color: #45B871;
+  border-radius: 50%;
+  text-align: center;
+  font-family: "OpenSans-Bold";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 25px;
+}
+.started-infotwo .get-title {
+  color: #242323;
+  font-family: "OpenSans-SemiBold";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 15px;
+  margin-top: 30px;
 }/*# sourceMappingURL=main.css.map */
