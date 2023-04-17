@@ -322,19 +322,25 @@ button {
   line-height: 50px;
 }
 
-.started {
+.education {
+  display: flex;
+}
+.education .started {
   width: 500px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
-.started-info {
+.education .started-info {
   display: flex;
   gap: 30px;
 }
-.started-info_img {
+.education .started-info_img {
   max-width: 492px;
   width: 100%;
 }
-.started-info .account {
+.education .started-info .account {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -342,9 +348,13 @@ button {
   width: 255px;
   padding: 50px 23px;
   background-color: white;
+  box-shadow: 5px 5px 100px rgba(87, 88, 89, 0.1);
   border-radius: 10px;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
 }
-.started-info .account-number1 {
+.education .started-info .account-number1 {
   padding: 24px 29px;
   font-family: "OpenSans-Bold";
   font-weight: 700;
@@ -356,14 +366,17 @@ button {
   border-radius: 50%;
   text-align: center;
 }
-.started-info .account-title {
+.education .started-info .account-title {
   font-family: "OpenSans-SemiBold";
   font-weight: 600;
   font-size: 28px;
   line-height: 15px;
   margin-top: 30px;
 }
-.started-info .courses {
+.education .started-info .account-title:hover {
+  color: white;
+}
+.education .started-info .courses {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -371,9 +384,11 @@ button {
   width: 255px;
   padding: 50px 23px;
   background-color: white;
+  box-shadow: 5px 5px 100px rgba(87, 88, 89, 0.1);
+  border-radius: 10px;
   border-radius: 10px;
 }
-.started-info .courses-number2 {
+.education .started-info .courses-number2 {
   padding: 24px 29px;
   font-family: "OpenSans-Bold";
   font-weight: 700;
@@ -385,27 +400,30 @@ button {
   border-radius: 50%;
   text-align: center;
 }
-.started-info .courses-title {
+.education .started-info .courses-title {
   font-family: "OpenSans-SemiBold";
   font-weight: 600;
   font-size: 28px;
   line-height: 15px;
   margin-top: 30px;
 }
-.started-infotwo {
+.education .started-infotwo {
   display: flex;
   gap: 30px;
 }
-.started-infotwo .book {
+.education .started-infotwo .book {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   width: 255px;
   padding: 50px 23px;
+  background-color: white;
+  box-shadow: 5px 5px 100px rgba(87, 88, 89, 0.1);
+  border-radius: 10px;
   border-radius: 10px;
 }
-.started-infotwo .book-number3 {
+.education .started-infotwo .book-number3 {
   padding: 24px 29px;
   width: 74px;
   color: white;
@@ -417,7 +435,7 @@ button {
   font-size: 30px;
   line-height: 25px;
 }
-.started-infotwo .book-title {
+.education .started-infotwo .book-title {
   color: #242323;
   font-family: "OpenSans-SemiBold";
   font-weight: 600;
@@ -425,16 +443,19 @@ button {
   line-height: 15px;
   margin-top: 30px;
 }
-.started-infotwo .get {
+.education .started-infotwo .get {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   width: 255px;
   padding: 50px 23px;
+  background-color: white;
+  box-shadow: 5px 5px 100px rgba(87, 88, 89, 0.1);
+  border-radius: 10px;
   border-radius: 10px;
 }
-.started-infotwo .get-number4 {
+.education .started-infotwo .get-number4 {
   padding: 24px 29px;
   width: 74px;
   color: white;
@@ -446,11 +467,18 @@ button {
   font-size: 30px;
   line-height: 25px;
 }
-.started-infotwo .get-title {
+.education .started-infotwo .get-title {
   color: #242323;
   font-family: "OpenSans-SemiBold";
   font-weight: 600;
   font-size: 28px;
   line-height: 15px;
   margin-top: 30px;
+}
+.education .started .account:hover {
+  background-color: #45B871;
+}
+.education .started .account:hover-number1 {
+  background-color: white;
+  color: #242323;
 }/*# sourceMappingURL=main.css.map */
