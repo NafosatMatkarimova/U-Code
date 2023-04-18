@@ -1,143 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/main.css" />
-    <title>U-Code</title>
-  </head>
-  <body>
-    <header class="header-page">
-      <div class="container">
-        <div class="header">
-          <a href="#" class="header-logo"><span>U</span>-Code</a>
-          <ul class="header-list">
-            <li class="header-list_item">
-              <a href="" class="header-list_item-link">Home</a>
-            </li>
-            <li class="header-list_item">
-              <a href="" class="header-list_item-link">All Courses</a>
-            </li>
-            <li class="header-list_item">
-              <a href="" class="header-list_item-link">Prising</a>
-            </li>
-            <li class="header-list_item">
-              <a href="" class="header-list_item-link">Bloc</a>
-            </li>
-          </ul>
-          <div class="header-btn">
-            <li class="header-list_item">
-              <a href="" class="header-list_item-link">Sign in</a>
-            </li>
-            <button class="header-btn_text " id="topbtn">Free Trial</button>
-          </div>
-          <!-- BURGER MENU -->
-          <div class="menu-burger">
-            <div></div>
-            <div></div>
-            <div></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style/main.css" />
+  <title>U-Code</title>
+</head>
+
+<body>
+  <header class="header-page">
+    <div class="container">
+      <div class="header">
+        <a href="#" class="header-logo"><span>U</span>-Code</a>
+        <ul class="header-list">
+          <li class="header-list_item">
+            <a href="" class="header-list_item-link">Home</a>
+          </li>
+          <li class="header-list_item">
+            <a href="" class="header-list_item-link">All Courses</a>
+          </li>
+          <li class="header-list_item">
+            <a href="" class="header-list_item-link">Prising</a>
+          </li>
+          <li class="header-list_item">
+            <a href="" class="header-list_item-link">Bloc</a>
+          </li>
+        </ul>
+        <div class="header-btn">
+          <li class="header-list_item">
+            <a href="" class="header-list_item-link">Sign in</a>
+          </li>
+          <button class="header-btn_text " id="topbtn">Free Trial</button>
+        </div>
+        <!-- BURGER MENU -->
+        <div class="menu-burger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="header-banner">
+
+        <div class="header-banner_wrapper">
+          <h1 class="header-banner_wrapper-title">
+            Anytime, anywhere Develop your skill by Online
+          </h1>
+          <p class="header-banner_wrapper-text">
+            Online education is a form of education where students use their
+            home computers through the internet. For many nontraditional
+            students, among them all those who want to continue.
+          </p>
+          <div class="header-banner_wrapper-btn">
+            <button class="header-btn_text all">All Courses</button>
+            <a href="https://www.youtube.com/channel/UCwlRVT6TQBXsh_uX3GTvaTw/join" class="header-banner_wrapper play">
+              <div><img class="play-img" src="./imgs/Polygon 5.svg" alt="play" /></div> Play
+              Video
+            </a>
           </div>
         </div>
-        <div class="header-banner">
-          
-          <div class="header-banner_wrapper">
-            <h1 class="header-banner_wrapper-title">
-              Anytime, anywhere Develop your skill by Online
-            </h1>
-            <p class="header-banner_wrapper-text">
-              Online education is a form of education where students use their
-              home computers through the internet. For many nontraditional
-              students, among them all those who want to continue.
-            </p>
-            <div class="header-banner_wrapper-btn">
-              <button class="header-btn_text all">All Courses</button>
-              <a href="https://www.youtube.com/channel/UCwlRVT6TQBXsh_uX3GTvaTw/join" class="header-banner_wrapper play">
-                <div><img class="play-img" src="./imgs/Polygon 5.svg" alt="play" /></div> Play
-                Video
-              </a>
+        <div class="header-banner_img">
+          <div class="header-banner_img-content">
+            <img class="girl" src="./imgs/foto-girl.svg" alt="girl">
+            <img class="teacher" src="./imgs/teacher.svg" alt="teacher">
+            <!-- <img class="students" src="./imgs/students.svg" alt="students"> -->
+            <img class="exam" src="./imgs/exam.svg" alt="exam">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- MODAL -->
+  <div class="modal hiddin">
+    <div class="modal-logo"><img src="./imgs/U-Coda.svg" alt="Code">
+      <button class="modal-logo_close"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="50"
+          viewBox="0 0 24 24" style="fill: #242323;">
+          <path
+            d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
+          </path>
+        </svg></button>
+    </div>
+    <form class="modal-form">
+      <div class="modal-form_email">
+        <label class="modal-form_email-label" for="email">Email</label>
+        <input class="modal-form_email-input" type="email" name="email" placeholder="Your E-mail" id="email" required>
+      </div>
+      <div class="modal-form_password">
+        <label class="modal-form_password-lable" for="password">Password</label>
+        <input class="modal-form_password-input" type="password" name="password" placeholder="Your password"
+          id="password" required>
+      </div>
+      <div class="modal-btn">
+        <button>Log in</button>
+      </div>
+    </form>
+  </div>
+  <main>
+    <section class="logo">
+      <div class="container">
+        <div class="logo-img">
+          <h2 class="logo-img_title">Trusted by 30,000+ satisfied students</h2>
+          <img src="./imgs/udemy-logo.svg" alt="udemy">
+          <img src="./imgs/fiverr-logo.svg" alt="fiverr">
+          <img src="./imgs/byju's-logo.svg" alt="byju's">
+          <img src="./imgs/microsoft-logo.svg" alt="microsoft">
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="education started">
+          <img class="started-info_img" src="./imgs/greyfon.png" alt="fone">
+          <div class="started-box">
+            <div class="started-box__item">
+              <div class="started-box__item-box">
+                <div class="numbers">1</div>
+                <h3>Create Account</h3>
+              </div>
+              <div class="started-box__item-box">
+                <div class="numbers">3</div>
+                <h3>Book Seat</h3>
+              </div>
+            </div>
+            <div class="started-box__item">
+              <div class="started-box__item-box">
+                <div class="numbers">2</div>
+                <h3>Find Courses</h3>
+              </div>
+              <div class="started-box__item-box">
+                <div class="numbers">4</div>
+                <h3>Get Started</h3>
+              </div>
             </div>
           </div>
-      <div class="header-banner_img">
-        <div class="header-banner_img-content">
-          <img class="girl" src="./imgs/foto-girl.svg" alt="girl">
-          <img class="teacher" src="./imgs/teacher.svg" alt="teacher">
-          <!-- <img class="students" src="./imgs/students.svg" alt="students"> -->
-          <img class="exam" src="./imgs/exam.svg" alt="exam">
-        </div>
-      </div>
-  </div>
-      </div>
-    </header>
-    <!-- MODAL -->
-    <div class="modal hiddin">
-      <div class="modal-logo"><img src="./imgs/U-Coda.svg" alt="Code">
-        <button class="modal-logo_close"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="50" viewBox="0 0 24 24" style="fill: #242323;"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg></button>
-      </div>
-      <form class="modal-form" >
-        <div class="modal-form_email">
-          <label class="modal-form_email-label" for="email">Email</label>
-        <input class="modal-form_email-input" type="email" name="email" placeholder="Your E-mail" id="email" required>
-        </div>
-        <div class="modal-form_password">
-          <label class="modal-form_password-lable" for="password">Password</label>
-          <input class="modal-form_password-input" type="password" name="password" placeholder="Your password" id="password" required>
-        </div>
-         <div class="modal-btn">
-          <button>Log in</button>
-         </div>
-      </form>
-     </div>
-   <main>
-    <section class="logo">
-    <div class="container">
-      <div class="logo-img">
-        <h2 class="logo-img_title">Trusted by 30,000+ satisfied students</h2>
-        <img src="./imgs/udemy-logo.svg" alt="udemy">
-        <img src="./imgs/fiverr-logo.svg" alt="fiverr">
-        <img src="./imgs/byju's-logo.svg" alt="byju's">
-        <img src="./imgs/microsoft-logo.svg" alt="microsoft">
-      </div>
-    </div>
-     </section>
-     <section>
-   <div class="container">
-     <div class="education started">
-  <img class="started-info_img" src="./imgs/greyfon.png" alt="fone">
-<div class="started">
-  <div class="started-info">
-    <div class="started-info account">
-      <div class="account-number1">1</div>
-       <h3 class="account-title">Create Account</h3>
-    </div>
-    <div class="courses">
-      <div class="courses-number2">2</div>
-      <h3 class="courses-title">Find Courses</h3>
-    </div>
-  </div>
-  <div class="started-infotwo">
-    <div class="started-infotwo book">
-      <div class="book-number3">3</div>
-      <h3 class="book-title">Book Seat</h3>
-    </div>
-<div class="started-infotwo get">
-<div class="get-number4">4</div>
-<h3 class="get-title">Get Started</h3>
-</div>
-  </div>
-</div>
-<div class="started information">
-  <h3 class="information-title">Get Started in 4 Easy Steps</h3>
-  <p class="information-text">Proper and good education is very important for all of us. It facilitates quality learning all through the life among people of any age group, cast, creed, religion and region.
+          <div class="started information">
+            <h3 class="information-title">Get Started in 4 Easy Steps</h3>
+            <p class="information-text">Proper and good education is very important for all of us. It facilitates
+              quality learning all through the life among people of any age group, cast, creed, religion and region.
 
-    It is the process of achieving knowledge, values, skills, beliefs, and moral habits.Education is the process of facilitating learning, or the acquisiof knowledge, skills, values.</p>
+              It is the process of achieving knowledge, values, skills, beliefs, and moral habits.Education is the
+              process of facilitating learning, or the acquisiof knowledge, skills, values.</p>
 
-    <div class="information-play"><img src="./imgs/playWork.svg" alt="playWork"></div>
-</div>
-</div>
-</div>
-     </section>
-   </main>
-    <script src="./js/app.js"></script>
-  </body>
+            <div class="information-play"><img src="./imgs/playWork.svg" alt="playWork"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./js/app.js"></script>
+</body>
+
 </html>

@@ -324,161 +324,49 @@ button {
 
 .education {
   display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 .education .started {
-  width: 500px;
+  max-width: 500px;
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.education .started-info {
-  display: flex;
-  gap: 30px;
-}
-.education .started-info_img {
-  max-width: 492px;
+.education .started-box {
+  max-width: 305px;
   width: 100%;
+  position: absolute;
 }
-.education .started-info .account {
+.education .started-box__item {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-direction: column;
-  width: 255px;
-  padding: 50px 23px;
-  background-color: white;
-  box-shadow: 5px 5px 100px rgba(87, 88, 89, 0.1);
-  border-radius: 10px;
-  border-radius: 10px;
-  transition: 0.5s;
-  cursor: pointer;
-}
-.education .started-info .account-number1 {
-  padding: 24px 29px;
-  font-family: "OpenSans-Bold";
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 25px;
-  width: 74px;
-  background-color: #45B871;
-  color: white;
-  border-radius: 50%;
-  text-align: center;
-}
-.education .started-info .account-title {
-  font-family: "OpenSans-SemiBold";
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 15px;
-  margin-top: 30px;
-}
-.education .started-info .account-title:hover {
-  color: white;
-}
-.education .started-info .courses {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  width: 255px;
-  padding: 50px 23px;
-  background-color: white;
-  box-shadow: 5px 5px 100px rgba(87, 88, 89, 0.1);
-  border-radius: 10px;
-  border-radius: 10px;
-}
-.education .started-info .courses-number2 {
-  padding: 24px 29px;
-  font-family: "OpenSans-Bold";
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 25px;
-  width: 74px;
-  background-color: #45B871;
-  color: white;
-  border-radius: 50%;
-  text-align: center;
-}
-.education .started-info .courses-title {
-  font-family: "OpenSans-SemiBold";
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 15px;
-  margin-top: 30px;
-}
-.education .started-infotwo {
-  display: flex;
   gap: 30px;
 }
-.education .started-infotwo .book {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
+.education .started-box__item:nth-child(1) {
+  position: absolute;
+  width: 100px;
+  top: 100px;
+  left: 25%;
+}
+.education .started-box__item:nth-child(2) {
+  position: absolute;
+  width: 100px;
+  top: 200px;
+  right: -50%;
+}
+.education .started-box__item-box {
   width: 255px;
   padding: 50px 23px;
-  background-color: white;
-  box-shadow: 5px 5px 100px rgba(87, 88, 89, 0.1);
-  border-radius: 10px;
-  border-radius: 10px;
-}
-.education .started-infotwo .book-number3 {
-  padding: 24px 29px;
-  width: 74px;
-  color: white;
-  background-color: #45B871;
-  border-radius: 50%;
-  text-align: center;
-  font-family: "OpenSans-Bold";
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 25px;
-}
-.education .started-infotwo .book-title {
-  color: #242323;
-  font-family: "OpenSans-SemiBold";
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 15px;
-  margin-top: 30px;
-}
-.education .started-infotwo .get {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  flex-direction: column;
-  width: 255px;
-  padding: 50px 23px;
-  background-color: white;
+  justify-content: center;
+  background: #FEFEFE;
   box-shadow: 5px 5px 100px rgba(87, 88, 89, 0.1);
   border-radius: 10px;
-  border-radius: 10px;
+  transition: 0.4s;
 }
-.education .started-infotwo .get-number4 {
-  padding: 24px 29px;
-  width: 74px;
-  color: white;
+.education .started-box__item-box:hover {
   background-color: #45B871;
-  border-radius: 50%;
-  text-align: center;
-  font-family: "OpenSans-Bold";
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 25px;
-}
-.education .started-infotwo .get-title {
-  color: #242323;
-  font-family: "OpenSans-SemiBold";
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 15px;
-  margin-top: 30px;
-}
-.education .started .account:hover {
-  background-color: #45B871;
-}
-.education .started .account:hover-number1 {
-  background-color: white;
-  color: #242323;
 }/*# sourceMappingURL=main.css.map */

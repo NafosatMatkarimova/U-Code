@@ -1,175 +1,60 @@
 .education {
     display: flex;
+    justify-content: space-between;
+    position: relative;
+
     .started {
-        width: 500px;
+        max-width: 500px;
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 30px;
 
-        &-info {
-            display: flex;
-            gap: 30px;
+        &-box {
+            max-width: 305px;
+            width: 100%;
+            position: absolute;
 
-            &_img {
-                max-width: 492px;
-                width: 100%;
+            &__item {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+           
+
+            &__item:nth-child(1){
+                position: absolute;
+                width: 100px;
+                top: 100px;
+                left: 25%;
+            }
+            &__item:nth-child(2){
+                position: absolute;
+                width: 100px;
+                top: 200px;
+                right: -50%;
             }
 
-            .account {
-                @include flexBetween;
-                flex-direction: column;
+            &__item-box {
                 width: 255px;
                 padding: 50px 23px;
-                background-color: #ffff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #FEFEFE;
                 box-shadow: 5px 5px 100px rgba(87, 88, 89, 0.1);
                 border-radius: 10px;
-                border-radius: 10px;
-                transition: 0.5s;
-                cursor: pointer;
+                transition: .4s;
 
-
-                &-number1 {
-                    padding: 24px 29px;
-                    font-family: $bold;
-                    font-weight: 700;
-                    font-size: 30px;
-                    line-height: 25px;
-                    width: 74px;
+                &:hover {
                     background-color: $darkGreen;
-                    color: #ffff;
-                    border-radius: 50%;
-                    text-align: center;
-                    // transition: 0.5s;
-                    // cursor: pointer;
-                }
-
-
-                &-title {
-                    font-family: $semiBold;
-                    font-weight: 600;
-                    font-size: 28px;
-                    line-height: 15px;
-                    margin-top: 30px;
-                }
-
-                &-title:hover {
-                    color: #ffff
                 }
             }
 
-            .courses {
-                @include flexBetween;
-                flex-direction: column;
-                width: 255px;
-                padding: 50px 23px;
-                background-color: #ffff;
-                box-shadow: 5px 5px 100px rgba(87, 88, 89, 0.1);
-                border-radius: 10px;
-                border-radius: 10px;
 
-                &-number2 {
-                    padding: 24px 29px;
-
-                    font-family: $bold;
-                    font-weight: 700;
-                    font-size: 30px;
-                    line-height: 25px;
-                    width: 74px;
-                    background-color: $darkGreen;
-                    color: #ffff;
-                    border-radius: 50%;
-                    text-align: center;
-                }
-
-                &-title {
-                    font-family: $semiBold;
-                    font-weight: 600;
-                    font-size: 28px;
-                    line-height: 15px;
-                    margin-top: 30px;
-                }
-            }
+        }
+        
         }
 
-        &-infotwo {
-            display: flex;
-            gap: 30px;
-
-            .book {
-                @include flexBetween;
-                flex-direction: column;
-                width: 255px;
-                padding: 50px 23px;
-                background-color: #ffff;
-                box-shadow: 5px 5px 100px rgba(87, 88, 89, 0.1);
-                border-radius: 10px;
-                border-radius: 10px;
-
-                &-number3 {
-                    padding: 24px 29px;
-                    width: 74px;
-                    color: #ffff;
-                    background-color: $darkGreen;
-                    border-radius: 50%;
-                    text-align: center;
-                    font-family: $bold;
-                    font-weight: 700;
-                    font-size: 30px;
-                    line-height: 25px;
-                }
-
-                &-title {
-                    color: $darkGrey;
-                    font-family: $semiBold;
-                    font-weight: 600;
-                    font-size: 28px;
-                    line-height: 15px;
-                    margin-top: 30px;
-                }
-            }
-
-            .get {
-                @include flexBetween;
-                flex-direction: column;
-                width: 255px;
-                padding: 50px 23px;
-                background-color: #ffff;
-                box-shadow: 5px 5px 100px rgba(87, 88, 89, 0.1);
-                border-radius: 10px;
-                border-radius: 10px;
-
-                &-number4 {
-                    padding: 24px 29px;
-                    width: 74px;
-                    color: #ffff;
-                    background-color: $darkGreen;
-                    border-radius: 50%;
-                    text-align: center;
-                    font-family: $bold;
-                    font-weight: 700;
-                    font-size: 30px;
-                    line-height: 25px;
-                }
-
-                &-title {
-                    color: $darkGrey;
-                    font-family: $semiBold;
-                    font-weight: 600;
-                    font-size: 28px;
-                    line-height: 15px;
-                    margin-top: 30px;
-                }
-            }
-        }
-
-        .account:hover {
-            background-color: $darkGreen;
-
-            &-number1 {
-                background-color: #ffff;
-                color: $darkGrey;
-            }
-        }
+     
     }
-}
