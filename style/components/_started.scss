@@ -9,13 +9,46 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
+&-info{
+    &_img{
+        max-width: 492px;
+        width: 100%;
+        height: 477px;
+    }
+}
+
 
         &-box {
             max-width: 305px;
             width: 100%;
             position: absolute;
-            display: flex;
-            flex-direction: column;
+
+            .contact {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                &-numbers {
+                    width: 74px;
+                    padding: 25px;
+                    background-color: $darkGreen;
+                    border-radius: 50%;
+                    color: #FEFEFE;
+                    font-family: $bold;
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 25px;
+                    text-align: center;
+                }
+
+                &-title {
+                    color: $darkGrey;
+                    font-family: $semiBold;
+                    font-weight: 600;
+                    font-size: 28px;
+                    line-height: 15px;
+                }
+            }
 
             &__item {
                 display: flex;
@@ -51,25 +84,53 @@
 
                 &:hover {
                     background-color: $darkGreen;
+
                 }
             }
 
-
-            .numbers {
-                width: 74px;
-                padding: 25px;
-                background-color: $darkGreen;
-                border-radius: 50%;
-                color: #FEFEFE;
-                font-family: $bold;
-                font-weight: 700;
-                font-size: 30px;
-                line-height: 25px;
-                @include flexBetween;
-            }
         }
+
 
     }
 
+    .information {
+        padding-block: 161px;
+        &-title {
+            max-width: 416px;
+            width: 100%;
+            color: $darkGrey;
+            font-family: $bold;
+            font-weight: 700;
+            font-size: 58px;
+            line-height: 74px;
+        }
 
+        &-text {
+            max-width: 612px;
+            width: 100%;
+            // margin-block: 30px ;
+            @include text;
+        }
+        
+        &-play {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            color: $darkGrey;
+            font-family: $bold;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 32px;
+        }
+&-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6.34375px 18.125px rgba(149, 205, 220, 0.2);
+    width: 58px;
+    height: 58px;
+    background: #DDEEF2;
+border-radius: 50%;
+}
+    }
 }
