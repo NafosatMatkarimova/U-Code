@@ -338,6 +338,8 @@ button {
   max-width: 305px;
   width: 100%;
   position: absolute;
+  display: flex;
+  flex-direction: column;
 }
 .education .started-box__item {
   display: flex;
@@ -369,4 +371,18 @@ button {
 }
 .education .started-box__item-box:hover {
   background-color: #45B871;
+}
+.education .started-box .numbers {
+  width: 74px;
+  padding: 25px;
+  background-color: #45B871;
+  border-radius: 50%;
+  color: #FEFEFE;
+  font-family: "OpenSans-Bold";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */

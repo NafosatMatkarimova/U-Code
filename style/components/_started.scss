@@ -14,21 +14,24 @@
             max-width: 305px;
             width: 100%;
             position: absolute;
+            display: flex;
+            flex-direction: column;
 
             &__item {
                 display: flex;
                 flex-direction: column;
                 gap: 30px;
             }
-           
 
-            &__item:nth-child(1){
+
+            &__item:nth-child(1) {
                 position: absolute;
                 width: 100px;
                 top: 100px;
                 left: 25%;
             }
-            &__item:nth-child(2){
+
+            &__item:nth-child(2) {
                 position: absolute;
                 width: 100px;
                 top: 200px;
@@ -52,9 +55,21 @@
             }
 
 
-        }
-        
+            .numbers {
+                width: 74px;
+                padding: 25px;
+                background-color: $darkGreen;
+                border-radius: 50%;
+                color: #FEFEFE;
+                font-family: $bold;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 25px;
+                @include flexBetween;
+            }
         }
 
-     
     }
+
+
+}
