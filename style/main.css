@@ -359,7 +359,9 @@ button {
   font-weight: 700;
   font-size: 30px;
   line-height: 25px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .education .started-box .contact-title {
   color: #242323;
@@ -398,6 +400,13 @@ button {
 }
 .education .started-box__item-box:hover {
   background-color: #45B871;
+}
+.education .started-box__item-box:hover > h3 {
+  color: white;
+}
+.education .started-box__item-box:hover > div {
+  color: #242323;
+  background-color: white;
 }
 .education .information {
   padding-block: 161px;

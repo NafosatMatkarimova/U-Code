@@ -38,7 +38,9 @@
                     font-weight: 700;
                     font-size: 30px;
                     line-height: 25px;
-                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                 }
 
                 &-title {
@@ -48,6 +50,9 @@
                     font-size: 28px;
                     line-height: 15px;
                 }
+            //    &-numbers:hover{
+            //     color: $darkGrey;
+            //    }
             }
 
             &__item {
@@ -85,8 +90,21 @@
                 &:hover {
                     background-color: $darkGreen;
 
-                }
             }
+
+                &:hover >h3 {
+                    color: #ffff;
+
+            }
+                &:hover >div {
+                    color: $darkGrey;
+                    background-color: #ffff;
+
+            }
+
+        }
+       
+        
 
         }
 
@@ -108,7 +126,6 @@
         &-text {
             max-width: 612px;
             width: 100%;
-            // margin-block: 30px ;
             @include text;
         }
         
