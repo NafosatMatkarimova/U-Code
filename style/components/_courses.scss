@@ -1,0 +1,18 @@
+section {
+    
+    .wrapper {
+        background-color: $lightGreen;
+        &-title {
+            color: $darkGrey;
+            font-family: $bold;
+            font-weight: 700;
+            font-size: 58px;
+            line-height: 74px;
+        }
+
+        .courses {
+            display: flex;
+
+        }
+    }
+}

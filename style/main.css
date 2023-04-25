@@ -447,4 +447,18 @@ button {
   height: 58px;
   background: #DDEEF2;
   border-radius: 50%;
+}
+
+section .wrapper {
+  background-color: #E4F5EB;
+}
+section .wrapper-title {
+  color: #242323;
+  font-family: "OpenSans-Bold";
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 74px;
+}
+section .wrapper .courses {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
