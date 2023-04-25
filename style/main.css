@@ -453,43 +453,94 @@ button {
   background-color: #E4F5EB;
   padding: 78px 0 106px;
 }
-.popular .wrapper {
-  display: flex;
-  gap: 30px;
-}
-.popular .wrapper-title {
+.popular-title {
   color: #242323;
   font-family: "OpenSans-Bold";
   font-weight: 700;
   font-size: 58px;
   line-height: 74px;
-  margin-bottom: 113px;
+  margin-bottom: 125px;
 }
-.popular .wrapper .courses {
+.popular .wrapper {
   display: flex;
-  flex-direction: column;
   gap: 30px;
-  background-color: green;
 }
 .popular .wrapper .courses-info {
   max-width: 450px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   background: #FFFFFF;
   border: 1px solid #F2EFEF;
   box-shadow: 0px 20px 100px rgba(87, 88, 89, 0.1);
   border-radius: 15px;
-  background-color: red;
 }
-.popular .wrapper .courses-info_img {
-  max-width: 449px;
+.popular .wrapper .courses-info .content-img {
+  max-width: 450px;
   width: 100%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-.popular .wrapper .courses-info_title {
+.popular .wrapper .courses-info .content-title {
+  max-width: 398px;
+  width: 100%;
   color: #242323;
   font-family: "OpenSans-SemiBold";
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
+}
+.popular .wrapper .courses-info .content-video {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+.popular .wrapper .courses-info .content-video div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 11px;
+}
+.popular .wrapper .courses-info .content-video_img {
+  background-color: #FF4848;
+  padding: 7.5px;
+  border-radius: 50%;
+}
+.popular .wrapper .courses-info .content-video_link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 11px;
+  color: #575859;
+  font-family: "OpenSans-SemiBold";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 15px;
+  margin-right: 11px;
+}
+.popular .wrapper .courses-info .content-video_text {
+  color: #575859;
+  font-family: "OpenSans-SemiBold";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.popular .wrapper .courses-info .content .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+.popular .wrapper .courses-info .content .bottom-img {
+  width: 68px;
+  border-radius: 50%;
+}
+.popular .wrapper .courses-info .content .bottom-title {
+  color: #000;
+  font-family: "OpenSans-Bold";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
 }/*# sourceMappingURL=main.css.map */
