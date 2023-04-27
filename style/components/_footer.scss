@@ -1,0 +1,35 @@
+.footer-page {
+      background-image: url(../imgs/line.svg);
+      background-color: $darkGreen;
+      padding: 106px 102px;
+
+      &_title {
+            max-width: 725px;
+            width: 100%;
+            color: #fff;
+            font-family: $bold;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 68px;
+            text-align: center;
+            margin-bottom: 50px;
+      }
+
+      &_btn {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+
+            #sign {
+                  background-color: #fff;
+                  color: $darkGrey;
+                  border: solid 1px $darkGreen;
+            }
+
+            #sign:hover {
+                  background-color: $darkGreen;
+                  color: #fff;
+                  border-color: #fff;
+            }
+      }
+}
