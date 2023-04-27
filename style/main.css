@@ -471,16 +471,25 @@ button {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  background: #FFFFFF;
-  border: 1px solid #F2EFEF;
-  box-shadow: 0px 20px 100px rgba(87, 88, 89, 0.1);
   border-radius: 15px;
+}
+.popular .wrapper .courses-info .content {
+  background: #FFFFFF;
+  box-shadow: 0px 20px 100px rgba(87, 88, 89, 0.1);
+  overflow: hidden;
 }
 .popular .wrapper .courses-info .content-img {
   max-width: 450px;
   width: 100%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+}
+.popular .wrapper .courses-info .content-box {
+  width: 100%;
+  min-height: 287px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: linear-gradient(177.92deg, rgba(241, 147, 0, 0.92) 3.89%, rgba(255, 160, 10, 0.72) 98.25%);
 }
 .popular .wrapper .courses-info .content-title {
   max-width: 398px;
@@ -490,6 +499,7 @@ button {
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
+  margin-left: 30px;
 }
 .popular .wrapper .courses-info .content-video {
   display: flex;
@@ -532,15 +542,69 @@ button {
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
+  padding-bottom: 44px;
 }
-.popular .wrapper .courses-info .content .bottom-img {
+.popular .wrapper .courses-info .content .bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  z-index: 0;
+}
+.popular .wrapper .courses-info .content .bottom-wrapper .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: solid 2px #FFFFFF;
+  background-color: #45B871;
+  position: absolute;
+  top: -5px;
+  left: 50px;
+  z-index: 1;
+}
+.popular .wrapper .courses-info .content .bottom-wrapper .redd {
+  background-color: #FF4848;
+}
+.popular .wrapper .courses-info .content .bottom-wrapper_img {
   width: 68px;
   border-radius: 50%;
 }
-.popular .wrapper .courses-info .content .bottom-title {
+.popular .wrapper .courses-info .content .bottom-wrapper_title {
   color: #000;
   font-family: "OpenSans-Bold";
   font-weight: 700;
   font-size: 12px;
   line-height: 21px;
+}
+.popular .wrapper .courses-info .content .bottom-wrapper_text {
+  color: #45B871;
+  font-family: "OpenSans-Bold";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+}
+.popular .wrapper .courses-info .content .bottom-wrapper div {
+  display: flex;
+  flex-direction: column;
+}
+.popular .wrapper .courses-info .content .bottom span {
+  font-family: "OpenSans-Bold";
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 15px;
+  color: #4C68FF;
+}
+.popular .enterbtn {
+  display: flex;
+  justify-content: center;
+}
+.popular .enterbtn #button {
+  padding: 32px 40px;
+  margin-top: 74px;
+  text-align: center;
+}
+.popular #img {
+  transform: translateX(-50px);
+  display: block;
 }/*# sourceMappingURL=main.css.map */
