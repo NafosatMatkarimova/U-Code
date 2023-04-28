@@ -1,7 +1,7 @@
 .students {
       display: flex;
       gap: 77px;
-
+      transition: 0.5s;
       &-title {
             color: $darkGrey;
             font-family: $semiBold;
@@ -10,26 +10,30 @@
             line-height: 74px;
             margin-bottom: 50px;
             text-align: center;
-
+            
             span {
                   color: #424232;
                   ;
             }
       }
-
+      
+      &-teacher:hover{
+            box-shadow: 30px 30px 70px rgba(99, 98, 98, 0.06);
+      }
       &-teacher {
             max-width: 695px;
             width: 100%;
             background: #FFFFFF;
             border: 1px solid rgba(231, 231, 231, 0.7);
-            box-shadow: 30px 30px 70px rgba(99, 98, 98, 0.06);
+            height: max-content;
             border-radius: 15px;
             padding: 82px 51px;
 
             &_img {
                   width: 127px;
                   border-radius: 50%;
-                  border: solid 3px #FFFFFF;
+                  border: solid 3px $darkGreen;
+                  padding: 4px;
             }
 
             &_text {
@@ -65,8 +69,10 @@
       .box {
             display: flex;
             flex-direction: column;
-            gap: 5px;
-            
+            gap: 50px;
+            &-content:hover{
+                  box-shadow: 30px 30px 70px rgba(99, 98, 98, 0.06);  
+            }
             &-content {
                   max-width: 643px;
                   width: 100%;
@@ -74,19 +80,11 @@
                   border: 1px solid rgba(231, 231, 231, 0.7);
                   border-radius: 15px;
                   padding: 50px 38px 49px;
-                  position: relative;
 
                   &_img {
                         border-radius: 50%;
-                        border: 2px solid #FFFFFF;
-                        &::after{
-                              content: ();
-                              position: absolute;
-                              width: 147px;
-                              height: 147px;
-                              border: 10px solid $darkGreen;
-                              border-radius: 50%;
-                        }
+                        border: 2px solid $darkGreen;
+                  padding: 3px;
                   }
 
                   &_text {

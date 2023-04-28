@@ -778,6 +778,7 @@ footer .footer-page_btn #sign:hover {
 .students {
   display: flex;
   gap: 77px;
+  transition: 0.5s;
 }
 .students-title {
   color: #242323;
@@ -791,19 +792,25 @@ footer .footer-page_btn #sign:hover {
 .students-title span {
   color: #424232;
 }
+.students-teacher:hover {
+  box-shadow: 30px 30px 70px rgba(99, 98, 98, 0.06);
+}
 .students-teacher {
   max-width: 695px;
   width: 100%;
   background: #FFFFFF;
   border: 1px solid rgba(231, 231, 231, 0.7);
-  box-shadow: 30px 30px 70px rgba(99, 98, 98, 0.06);
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   border-radius: 15px;
   padding: 82px 51px;
 }
 .students-teacher_img {
   width: 127px;
   border-radius: 50%;
-  border: solid 3px #FFFFFF;
+  border: solid 3px #45B871;
+  padding: 4px;
 }
 .students-teacher_text {
   max-width: 591px;
@@ -833,7 +840,10 @@ footer .footer-page_btn #sign:hover {
 .students .box {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 50px;
+}
+.students .box-content:hover {
+  box-shadow: 30px 30px 70px rgba(99, 98, 98, 0.06);
 }
 .students .box-content {
   max-width: 643px;
@@ -845,7 +855,8 @@ footer .footer-page_btn #sign:hover {
 }
 .students .box-content_img {
   border-radius: 50%;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #45B871;
+  padding: 3px;
 }
 .students .box-content_text {
   max-width: 559px;
