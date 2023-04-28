@@ -1,8 +1,18 @@
+footer{
+padding: 102px 102px;
+
 .footer-page {
-      background-image: url(../imgs/line.svg);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../imgs/footstyle.png);
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat;
       background-color: $darkGreen;
       padding: 106px 102px;
-
+      
       &_title {
             max-width: 725px;
             width: 100%;
@@ -17,7 +27,6 @@
 
       &_btn {
             display: flex;
-            justify-content: center;
             gap: 30px;
 
             #sign {
@@ -32,4 +41,5 @@
                   border-color: #fff;
             }
       }
+}
 }

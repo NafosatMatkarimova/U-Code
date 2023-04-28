@@ -84,6 +84,7 @@ button {
   background-color: #45B871;
   border-radius: 5px;
   padding: 20px;
+  border: solid 1px #45B871;
   position: 0.5s;
 }
 .header-btn_text:hover {
@@ -475,7 +476,6 @@ button {
 }
 .popular .wrapper .courses-info .content {
   background: #FFFFFF;
-  box-shadow: 0px 20px 100px rgba(87, 88, 89, 0.1);
   overflow: hidden;
 }
 .popular .wrapper .courses-info .content-img {
@@ -542,7 +542,7 @@ button {
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
-  padding-bottom: 44px;
+  padding-block: 44px;
 }
 .popular .wrapper .courses-info .content .bottom-wrapper {
   display: flex;
@@ -550,7 +550,7 @@ button {
   align-items: center;
   gap: 20px;
   position: relative;
-  z-index: 0;
+  z-index: 1;
 }
 .popular .wrapper .courses-info .content .bottom-wrapper .circle {
   width: 20px;
@@ -561,7 +561,7 @@ button {
   position: absolute;
   top: -5px;
   left: 50px;
-  z-index: 1;
+  z-index: 2;
 }
 .popular .wrapper .courses-info .content .bottom-wrapper .redd {
   background-color: #FF4848;
@@ -575,6 +575,13 @@ button {
   font-family: "OpenSans-Bold";
   font-weight: 700;
   font-size: 12px;
+  line-height: 21px;
+}
+.popular .wrapper .courses-info .content .bottom-wrapper .jhon {
+  color: #000;
+  font-family: "OpenSans-Bold";
+  font-weight: 700;
+  font-size: 20px;
   line-height: 21px;
 }
 .popular .wrapper .courses-info .content .bottom-wrapper_text {
@@ -600,7 +607,7 @@ button {
   justify-content: center;
 }
 .popular .enterbtn #button {
-  padding: 32px 40px;
+  width: 252px;
   margin-top: 74px;
   text-align: center;
 }
@@ -727,12 +734,22 @@ button {
     transform: scale(1.5);
   }
 }
-.footer-page {
-  background-image: url(../imgs/line.svg);
+footer {
+  padding: 102px 102px;
+}
+footer .footer-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imgs/footstyle.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-color: #45B871;
   padding: 106px 102px;
 }
-.footer-page_title {
+footer .footer-page_title {
   max-width: 725px;
   width: 100%;
   color: #fff;
@@ -743,18 +760,108 @@ button {
   text-align: center;
   margin-bottom: 50px;
 }
-.footer-page_btn {
+footer .footer-page_btn {
   display: flex;
-  justify-content: center;
   gap: 30px;
 }
-.footer-page_btn #sign {
+footer .footer-page_btn #sign {
   background-color: #fff;
   color: #242323;
   border: solid 1px #45B871;
 }
-.footer-page_btn #sign:hover {
+footer .footer-page_btn #sign:hover {
   background-color: #45B871;
   color: #fff;
   border-color: #fff;
+}
+
+.students {
+  display: flex;
+  gap: 77px;
+}
+.students-title {
+  color: #242323;
+  font-family: "OpenSans-SemiBold";
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 74px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.students-title span {
+  color: #424232;
+}
+.students-teacher {
+  max-width: 695px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid rgba(231, 231, 231, 0.7);
+  box-shadow: 30px 30px 70px rgba(99, 98, 98, 0.06);
+  border-radius: 15px;
+  padding: 82px 51px;
+}
+.students-teacher_img {
+  width: 127px;
+  border-radius: 50%;
+  border: solid 3px #FFFFFF;
+}
+.students-teacher_text {
+  max-width: 591px;
+  width: 100%;
+  color: #6C6C6A;
+  font-family: "OpenSans-Regular";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  margin-block: 32px 60px;
+}
+.students-teacher_name {
+  color: #242323;
+  font-family: "OpenSans-SemiBold";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 10px;
+  margin-bottom: 32px;
+}
+.students-teacher_link {
+  color: #636262;
+  font-family: "OpenSans-Regular";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1px;
+}
+.students .box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.students .box-content {
+  max-width: 643px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid rgba(231, 231, 231, 0.7);
+  border-radius: 15px;
+  padding: 50px 38px 49px;
+}
+.students .box-content_img {
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+}
+.students .box-content_text {
+  max-width: 559px;
+  width: 100%;
+  color: #6C6C6A;
+  font-family: "OpenSans-Regular";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 25px 0 50px;
+}
+.students .box-content_name {
+  color: #242323;
+  font-family: "OpenSans-Regular";
+  font-weight: 600;
+  font-size: 19.2821px;
+  line-height: 6px;
+  margin-bottom: 19px;
 }/*# sourceMappingURL=main.css.map */

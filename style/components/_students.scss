@@ -1,0 +1,114 @@
+.students {
+      display: flex;
+      gap: 77px;
+
+      &-title {
+            color: $darkGrey;
+            font-family: $semiBold;
+            font-weight: 600;
+            font-size: 58px;
+            line-height: 74px;
+            margin-bottom: 50px;
+            text-align: center;
+
+            span {
+                  color: #424232;
+                  ;
+            }
+      }
+
+      &-teacher {
+            max-width: 695px;
+            width: 100%;
+            background: #FFFFFF;
+            border: 1px solid rgba(231, 231, 231, 0.7);
+            box-shadow: 30px 30px 70px rgba(99, 98, 98, 0.06);
+            border-radius: 15px;
+            padding: 82px 51px;
+
+            &_img {
+                  width: 127px;
+                  border-radius: 50%;
+                  border: solid 3px #FFFFFF;
+            }
+
+            &_text {
+                  max-width: 591px;
+                  width: 100%;
+                  color: $lightGrey;
+                  font-family: $regular;
+                  font-weight: 400;
+                  font-size: 28px;
+                  line-height: 40px;
+                  margin-block: 32px 60px;
+            }
+
+            &_name {
+                  color: $darkGrey;
+                  font-family: $semiBold;
+                  font-weight: 600;
+                  font-size: 30px;
+                  line-height: 10px;
+                  margin-bottom: 32px;
+            }
+
+            &_link {
+                  color: $grey;
+                  font-family: $regular;
+                  font-weight: 400;
+                  font-size: 20px;
+                  line-height: 1px;
+            }
+
+      }
+
+      .box {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            
+            &-content {
+                  max-width: 643px;
+                  width: 100%;
+                  background: #FFFFFF;
+                  border: 1px solid rgba(231, 231, 231, 0.7);
+                  border-radius: 15px;
+                  padding: 50px 38px 49px;
+                  position: relative;
+
+                  &_img {
+                        border-radius: 50%;
+                        border: 2px solid #FFFFFF;
+                        &::after{
+                              content: ();
+                              position: absolute;
+                              width: 147px;
+                              height: 147px;
+                              border: 10px solid $darkGreen;
+                              border-radius: 50%;
+                        }
+                  }
+
+                  &_text {
+                        max-width: 559px;
+                        width: 100%;
+                        color: $lightGrey;
+                        font-family: $regular;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 30px;
+                        margin: 25px 0 50px;
+                  }
+
+                  &_name {
+                        color: $darkGrey;
+                        font-family: $regular;
+                        font-weight: 600;
+                        font-size: 19.2821px;
+                        line-height: 6px;
+                        margin-bottom: 19px;
+                  }
+
+            }
+      }
+}
