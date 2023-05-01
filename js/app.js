@@ -1,7 +1,7 @@
 "use strict";
 const contact = document.querySelector(".contact"),
 numbers = document.querySelectorAll(".contact-numbers");
-// console.log(numbers);
+
 
 
 window.addEventListener("scroll" , function scroll(){
@@ -18,9 +18,38 @@ window.addEventListener("scroll" , function scroll(){
                 }
             }
             rec();
-        }
-        console.log("hiii");
+        } 
         window.removeEventListener("scroll", scroll);
     }
 })
+ 
+ window,addEventListener("DOMContentLoaded",()=>{
+    const loader = document.querySelector(".loader");
+    console.log(loader);
+
+    setTimeout(() => {
+        loader.style.opacity = "0";
+        setTimeout(() => {
+            loader.style.display = "none";
+        }, 500);
+    },1000);
+})
+
+
+
+
+
+    const headerBanner = document.querySelector(".header-banner");
+    const wrapper = document.querySelectorAll(".boxes");
+    window.addEventListener("scroll", () => {
+        if(window.scrollX > headerBanner.offsetTop - headerBanner.clientHeight /2){
+           boxes.forEach((item) => {
+            item.style = `transform: translate (0);
+            opacity: 1;
+            z-index: 1;`
+           });
+        }
+    });
+
+
  

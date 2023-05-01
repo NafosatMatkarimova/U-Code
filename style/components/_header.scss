@@ -54,7 +54,7 @@
       border-radius: 5px;
       padding: 20px;
       border: solid 1px $darkGreen;
-      position: 0.5s;
+      transition: 0.5s;
     }
 
     &_text:hover {

@@ -25,7 +25,6 @@
         &_email{
           display: flex;
           flex-direction: column;
-          // gap: 25px;
 
           &-label{
               color: $darkGrey;
@@ -51,7 +50,6 @@
         &_password{
             display: flex;
             flex-direction: column;
-            // gap: 15px;
 
             &-lable{
                 color: $darkGrey;

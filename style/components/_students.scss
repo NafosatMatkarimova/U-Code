@@ -2,6 +2,7 @@
       display: flex;
       gap: 77px;
       transition: 0.5s;
+      
       &-title {
             color: $darkGrey;
             font-family: $semiBold;
@@ -10,6 +11,7 @@
             line-height: 74px;
             margin-bottom: 50px;
             text-align: center;
+            margin-top: 151px;
             
             span {
                   color: #424232;
@@ -19,6 +21,7 @@
       
       &-teacher:hover{
             box-shadow: 30px 30px 70px rgba(99, 98, 98, 0.06);
+            cursor: pointer;
       }
       &-teacher {
             max-width: 695px;
@@ -71,7 +74,8 @@
             flex-direction: column;
             gap: 50px;
             &-content:hover{
-                  box-shadow: 30px 30px 70px rgba(99, 98, 98, 0.06);  
+                  box-shadow: 30px 30px 70px rgba(99, 98, 98, 0.06); 
+                  cursor: pointer; 
             }
             &-content {
                   max-width: 643px;
