@@ -39,17 +39,17 @@ window.addEventListener("scroll" , function scroll(){
 
 
 
-    const headerBanner = document.querySelector(".header-banner");
-    const wrapper = document.querySelectorAll(".boxes");
-    window.addEventListener("scroll", () => {
-        if(window.scrollX > headerBanner.offsetTop - headerBanner.clientHeight /2){
-           boxes.forEach((item) => {
-            item.style = `transform: translate (0);
-            opacity: 1;
-            z-index: 1;`
-           });
-        }
-    });
+    // const headerBanner = document.querySelector(".header-banner");
+    // const wrapper = document.querySelectorAll(".boxes");
+    // window.addEventListener("scroll", () => {
+    //     if(window.scrollX > headerBanner.offsetTop - headerBanner.clientHeight /2){
+    //        boxes.forEach((item) => {
+    //         item.style = `transform: translate (0);
+    //         opacity: 1;
+    //         z-index: 1;`
+    //        });
+    //     }
+    // });
 
 
  

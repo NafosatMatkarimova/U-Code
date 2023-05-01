@@ -176,7 +176,6 @@ button {
   justify-content: space-between;
   align-items: center;
   padding-block: 150px 140px;
-  overflow: hidden;
 }
 .header-banner_wrapper {
   max-width: 660px;
@@ -294,14 +293,6 @@ button {
   font-weight: 600;
   font-size: 15px;
   line-height: 15px;
-}
-
-.header-banner:nth-child(1) {
-  transform: translateX(-700px);
-}
-
-.header-banner:nth-child(2) {
-  transform: translateX(700px);
 }
 
 .modal {
